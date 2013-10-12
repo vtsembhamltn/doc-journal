@@ -1,0 +1,32 @@
+# files which should not be included in any repository
+
+# OS directory files
+.directory
+*/.directory
+
+# editor backup files
+*~
+*kate-swp
+*/*~
+*/*kate-swp
+
+# cloud9 revision tracking
+.c9revisions/*
+
+# built folder content (.html, .doc, .pdf)
+*build/*
+*/*build/*
+
+# deployment folder content
+*deploy/*
+*/*deploy/*
+
+# keep directories which include .gitkeep
+!.git_keep
+!.gitkeep
+!*/.git_keep
+!*/.gitkeep
+
+# Private files
+# .htaccess
+# .htpasswd
